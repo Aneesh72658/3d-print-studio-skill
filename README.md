@@ -3,7 +3,7 @@
 **Turn any idea, sketch, photo or broken STL into a print-ready 3D model — no Blender, Fusion or CAD skills needed.**
 You talk to Claude in plain words; Claude designs the part, checks it will print, and hands you the STL.
 
-![Example: a 1:84 SUV keychain built and verified with this skill](examples/suv-keychain-renders.png)
+![Example: a 1:84 SUV keychain built and verified with this skill](examples/suv-keychain-outline.svg)
 
 ## What it does
 
@@ -27,7 +27,7 @@ You talk to Claude in plain words; Claude designs the part, checks it will print
 
 ## Install
 
-**Claude (claude.ai / desktop app):** download `3d-print-studio.zip` from the [latest release](../../releases) → Settings → Capabilities → Skills → Upload skill.
+**Claude (claude.ai / desktop app):** download [`3d-print-studio/SKILL.md`](3d-print-studio/SKILL.md) (Raw → Save), put it in a folder named `3d-print-studio`, zip that folder, then Settings → Capabilities → Skills → Upload skill.
 
 **Claude Code:**
 ```bash
